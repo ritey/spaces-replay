@@ -15,4 +15,19 @@ class Space extends Model
     protected $keyType = 'string';
     protected $guarded = []; // allow all
     protected $connection = 'mysql';
+
+    public function toSearchableArray()
+    {
+        return [
+            'state' => $this->state,
+            'title' => $this->title,
+            'scrape_json' => $this->scrape_json,
+            'basic_scrape_json' => $this->basic_scrape_json,
+        ];
+    }
+
+    public function searchableAs(): string
+    {
+        return 'spaces_index';
+    }
 }
