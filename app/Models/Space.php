@@ -16,9 +16,20 @@ class Space extends Model
     protected $guarded = []; // allow all
     protected $connection = 'mysql';
 
+    /**
+     * Get the value used to index the model.
+     */
     public function getScoutKey()
     {
         return $this->guid;
+    }
+
+    /**
+     * Get the key name used to index the model.
+     */
+    public function getScoutKeyName()
+    {
+        return 'guid';
     }
 
     public function toSearchableArray()
