@@ -16,6 +16,11 @@ class Space extends Model
     protected $guarded = []; // allow all
     protected $connection = 'mysql';
 
+    public function getScoutKey()
+    {
+        return $this->guid;
+    }
+
     public function toSearchableArray()
     {
         return [
