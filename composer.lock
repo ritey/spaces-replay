@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebf83c7855e9c0193f48a10517777b37",
+    "content-hash": "8da014569ce69da459734334fd79c928",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -2389,16 +2389,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.6.2",
+            "version": "v3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "8f8914731f5eb43b6bb145d87c8d5a9edfc89313"
+                "reference": "56aa1bb63a46e06181c56fa64717a7287e19115e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/8f8914731f5eb43b6bb145d87c8d5a9edfc89313",
-                "reference": "8f8914731f5eb43b6bb145d87c8d5a9edfc89313",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/56aa1bb63a46e06181c56fa64717a7287e19115e",
+                "reference": "56aa1bb63a46e06181c56fa64717a7287e19115e",
                 "shasum": ""
             },
             "require": {
@@ -2453,7 +2453,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.6.2"
+                "source": "https://github.com/livewire/livewire/tree/v3.6.3"
             },
             "funding": [
                 {
@@ -2461,20 +2461,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-12T20:24:15+00:00"
+            "time": "2025-04-12T22:26:52+00:00"
         },
         {
             "name": "manticoresoftware/manticoresearch-php",
-            "version": "3.2.0",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/manticoresoftware/manticoresearch-php.git",
-                "reference": "02950b0f73ba8ad72d3f48bed4471b582b87ae8d"
+                "reference": "fe6ea1c5ddbfc79f0d31dfbeb0284a890c4c9687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/manticoresoftware/manticoresearch-php/zipball/02950b0f73ba8ad72d3f48bed4471b582b87ae8d",
-                "reference": "02950b0f73ba8ad72d3f48bed4471b582b87ae8d",
+                "url": "https://api.github.com/repos/manticoresoftware/manticoresearch-php/zipball/fe6ea1c5ddbfc79f0d31dfbeb0284a890c4c9687",
+                "reference": "fe6ea1c5ddbfc79f0d31dfbeb0284a890c4c9687",
                 "shasum": ""
             },
             "require": {
@@ -2486,7 +2486,7 @@
             "require-dev": {
                 "mockery/mockery": "*",
                 "phpstan/phpstan": "^1.4",
-                "phpunit/phpunit": ">=7.5 || ^9.6",
+                "phpunit/phpunit": ">=7.5 || ^10.5",
                 "slevomat/coding-standard": "^7.0",
                 "squizlabs/php_codesniffer": "^3.7"
             },
@@ -2531,7 +2531,7 @@
                 "issues": "https://github.com/manticoresoftware/manticoresearch-php/issues",
                 "source": "https://github.com/manticoresoftware/manticoresearch-php/"
             },
-            "time": "2024-10-31T10:38:53+00:00"
+            "time": "2025-03-31T12:51:13+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -4127,21 +4127,21 @@
         },
         {
             "name": "ritey/laravel-manticore",
-            "version": "v1.0.4.8",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ritey/laravel-manticore.git",
-                "reference": "a8c6992d7db692877613fc950cedf89b27cbe875"
+                "reference": "256eaa6abb847bc80336534016ff2f3fc853d0a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ritey/laravel-manticore/zipball/a8c6992d7db692877613fc950cedf89b27cbe875",
-                "reference": "a8c6992d7db692877613fc950cedf89b27cbe875",
+                "url": "https://api.github.com/repos/ritey/laravel-manticore/zipball/256eaa6abb847bc80336534016ff2f3fc853d0a1",
+                "reference": "256eaa6abb847bc80336534016ff2f3fc853d0a1",
                 "shasum": ""
             },
             "require": {
                 "laravel/scout": "^9.0|^10.0|^11.0",
-                "manticoresoftware/manticoresearch-php": "^3.0",
+                "manticoresoftware/manticoresearch-php": "^4.0",
                 "php": "^7.4|^8.0"
             },
             "require-dev": {
@@ -4184,9 +4184,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ritey/laravel-manticore/issues",
-                "source": "https://github.com/ritey/laravel-manticore/tree/v1.0.4.8"
+                "source": "https://github.com/ritey/laravel-manticore/tree/v2.0.0"
             },
-            "time": "2025-04-09T18:35:00+00:00"
+            "time": "2025-04-15T10:39:37+00:00"
         },
         {
             "name": "symfony/clock",
