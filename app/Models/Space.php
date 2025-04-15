@@ -35,10 +35,10 @@ class Space extends Model
     public function toSearchableArray()
     {
         return [
-            'state' => $this->state,
-            'title' => $this->title,
-            'scrape_json' => $this->scrape_json,
-            'basic_scrape_json' => $this->basic_scrape_json,
+            'title' => $this->title ?? '',
+            'state' => $this->state ?? '',
+            'scrape_json' => $this->scrape_json ?? '{}',
+            'basic_scrape_json' => $this->basic_scrape_json ?? '{}',
         ];
     }
 
