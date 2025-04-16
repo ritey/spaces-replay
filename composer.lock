@@ -4127,16 +4127,16 @@
         },
         {
             "name": "ritey/laravel-manticore",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ritey/laravel-manticore.git",
-                "reference": "e640c7a03380ce0f8fe0fa2e8ca8cb1af28a5399"
+                "reference": "7b97dab4ddf583b29694fdc5b80ebd5e53519813"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ritey/laravel-manticore/zipball/e640c7a03380ce0f8fe0fa2e8ca8cb1af28a5399",
-                "reference": "e640c7a03380ce0f8fe0fa2e8ca8cb1af28a5399",
+                "url": "https://api.github.com/repos/ritey/laravel-manticore/zipball/7b97dab4ddf583b29694fdc5b80ebd5e53519813",
+                "reference": "7b97dab4ddf583b29694fdc5b80ebd5e53519813",
                 "shasum": ""
             },
             "require": {
@@ -4184,9 +4184,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ritey/laravel-manticore/issues",
-                "source": "https://github.com/ritey/laravel-manticore/tree/v2.0.3"
+                "source": "https://github.com/ritey/laravel-manticore/tree/v2.0.4"
             },
-            "time": "2025-04-16T22:06:35+00:00"
+            "time": "2025-04-16T22:29:20+00:00"
         },
         {
             "name": "symfony/clock",
