@@ -33,7 +33,7 @@ class SpaceSearch extends Component
             $filters->where('state', $this->state);
         }
 
-        $results = collect([]);
+        $results = [];
 
         if (strlen($this->query) > 2) {
             $results = Space::search($this->query)
