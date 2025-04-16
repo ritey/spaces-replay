@@ -1,6 +1,10 @@
 <div>
+    <pre>Query: {{ var_dump($query) }}</pre>
+    @if ($query)
+    <p class="mb-4">Search: {{ $query }}</span>
+    @endif
     <div class="flex items-center gap-4 mb-4">
-        <input type="text" wire:model.debounce.300ms="query" placeholder="Search Spaces..." class="border px-4 py-2 rounded w-full">
+        <input type="text" wire:model="query" placeholder="Search Spaces..." class="border px-4 py-2 rounded w-full">
 
         <select wire:model="state" class="border px-4 py-2 rounded">
             <option value="">All States</option>
@@ -11,9 +15,6 @@
     </div>
 
     <div class="space-y-4">
-        @if ($query)
-        <p class="">Search: {{ $query}}</span>
-        @endif
 
         @forelse ($spaces as $space)
             <div class="border rounded p-4">
