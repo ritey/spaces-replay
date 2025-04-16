@@ -33,14 +33,18 @@ class SpaceSearch extends Component
             $filters->where('state', $this->state);
         }
 
-        $results = Space::search($this->query)
-            ->tap(function ($builder) use ($filters) {
-                $builder->filterBuilder = $filters;
-                $builder->facets = ['state'];
-                $builder->sort = [['title' => 'asc']];
-            })
-            ->paginate(10)
-        ;
+        $results = collect([]);
+
+        if (strlen($this->query) > 2) {
+            $results = Space::search($this->query)
+                ->tap(function ($builder) use ($filters) {
+                    $builder->filterBuilder = $filters;
+                    $builder->facets = ['state'];
+                    $builder->sort = [['title' => 'asc']];
+                })
+                ->paginate(10)
+            ;
+        }
 
         return view('livewire.space-search', [
             'spaces' => $results,
