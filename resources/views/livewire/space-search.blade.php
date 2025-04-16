@@ -21,7 +21,9 @@
         @endforelse
     </div>
 
+    @if (is_object($spaces))
     <div class="mt-6">
         {{ $spaces->links() }}
     </div>
+    @endif
 </div>
