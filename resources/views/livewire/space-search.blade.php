@@ -11,6 +11,10 @@
     </div>
 
     <div class="space-y-4">
+        @if ($query)
+        <p class="">Search: {{ $query}}</span>
+        @endif
+
         @forelse ($spaces as $space)
             <div class="border rounded p-4">
                 <h2 class="text-lg font-semibold">{{ $space->title }}</h2>
