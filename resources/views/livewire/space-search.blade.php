@@ -1,10 +1,9 @@
 <div>
-    <pre>Query: {{ var_dump($query) }}</pre>
     @if ($query)
-    <p class="mb-4">Search: {{ $query }}</span>
+    <p class="mb-4">Search: {{ $query }}</p>
     @endif
     <div class="flex items-center gap-4 mb-4">
-        <input type="text" wire:model="query" placeholder="Search Spaces..." class="border px-4 py-2 rounded w-full">
+        <input type="text" wire:model.live="query" placeholder="Search Spaces..." class="border px-4 py-2 rounded w-full">
 
         <select wire:model="state" class="border px-4 py-2 rounded">
             <option value="">All States</option>
