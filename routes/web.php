@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CreatorController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -9,6 +10,8 @@ Route::get('/', function () {
 Route::get('/spaces', function () {
     return view('spaces');
 });
+
+Route::get('/exclude/og/image.png', [CreatorController::class, 'ogImageGeneral'])->name('og-image');
 
 Route::middleware([
     'auth:sanctum',
